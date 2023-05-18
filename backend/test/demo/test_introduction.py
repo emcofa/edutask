@@ -3,6 +3,7 @@ import unittest.mock as mock
 
 from src.util.helpers import hasAttribute, ValidationHelper
 
+# Testing
 # tests for the hasAttribute method
 @pytest.mark.demo
 @pytest.mark.parametrize('obj, expected', [({'name': 'Jane'}, True), ({'email': 'jane.doe@gmail.com'}, False), (None, False)])
